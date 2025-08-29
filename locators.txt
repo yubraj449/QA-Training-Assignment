@@ -1,0 +1,15 @@
+Username input box:
+    CSS: input#user-name
+    XPath: //input[@id='user-name']
+
+Password input box:
+    CSS: input#password
+    XPath: //input[@id='password']
+
+Login button:
+    CSS: input#login-button
+    XPath: //input[@id='login-button']
+
+Error message (on wrong login):
+    CSS: h3[data-test='error']
+    XPath: //h3[@data-test='error']
